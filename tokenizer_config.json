@@ -1,0 +1,17 @@
+{
+  "name_or_path": "sky-code",
+  "bos_token": "[BOS]",
+  "eos_token": "[EOS]",
+  "pad_token": "[PAD]",
+  "mask_token": "[MASK]",
+  "unk_token": "[UNK]",
+  "add_prefix_space": false,
+  "tokenizer_class": "SkyTokenizer",
+  "use_fast": false,
+  "auto_map": {
+    "AutoTokenizer": [
+      "tokenization_sky.SkyTokenizer",
+      null
+      ]
+  }
+}
